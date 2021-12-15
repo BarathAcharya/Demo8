@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.navbar{
+    background-color:#ffffff;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.navbar li>a{
+    color:#000000;
+}
+.nav nav-pills{
+  color:blue;
+}
+.navbar-brand{
+  color:#000000;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+}
+svg{
+  color:blue;
+}
+
+/* services */
+#serv{
+  /* background-color: #dddd; */
+  padding:50px;
+}
+#abt{
+  background-color: #dddd;
+  padding:50px;
+}
+#foot{
+  background-color: #dddd;
+  padding:50px;
+}
+i{
+  color:blue;
+}
+.counters{
+  background-color: #dddd;
+  padding:50px;
+}
+#blog{
+    background-color: #dddd;
+    padding:50px;
+  }
+  #portfolio{
+   
+    padding:50px;
+  }
+
+.counter{
+  font-size:1.5rem;
+}
+
+/* swiper styles */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
