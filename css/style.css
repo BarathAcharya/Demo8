@@ -20,12 +20,12 @@ body{
   color:blue;
 }
 .navbar-toggler{
-  border-color:#000000;
+  border-color:blue;
   float:right;
   overflow-x: hidden;
 }
 .navbar-toggler-icon{
-  border-color:#000000;
+  border-color:blue;
 }
 .navbar-toggler-icon {
   background-image: url(
